@@ -2,6 +2,7 @@ public class Main {
     public static void main(String[] args) {
         task1();
         task2();
+        task3();
     }
 
     public static void task1() {
@@ -22,5 +23,14 @@ public class Main {
                 System.out.println("Установите облегченную версию приложения по ссылке");
         }
     }
-
+    public static void task3(){
+        int year = 2021;
+        int everyYear = 4;
+        int vesYear = year / everyYear;
+        if (vesYear == 4){
+            System.out.println("Год является високосным");
+        }else{
+            System.out.println("Год не является висикосным");
+        }
+    }
 }
